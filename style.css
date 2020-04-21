@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+* {
+	font-family: 'Asap', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #383838;
+	color: white;
+}
+
+header{
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.score-board{
+	border: 3px solid white;
+	width: 200px;
+	text-align: center;
+	margin: 20px auto;
+	border-radius: 4px;
+	padding:10px;
+	position: relative;
+	font-size: 46px;
+}
+
+.badge{
+	background-color: red;
+	position: absolute;
+	font-size: 14px;
+	top:40%;
+	border-radius: 4px;
+	padding: 2px;
+}
+
+#user-badge{
+	left:-20px;
+}
+
+#comp-badge{
+	right: -25px;
+}
+
+.result{
+	font-size: 40px;
+	text-align: center;
+}
+
+.choice{
+	display: inline-block;
+	border: 3px solid white;
+	font-size: 90px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin: 20px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	user-select: none;
+}
+
+.choice:hover{
+	background-color: black;
+}
+
+.choices{
+	text-align: center;
+	margin: 40px 0px;
+}
+
+.make-move{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.reset-score{
+	border: 3px solid white;
+	font-size: 30px;
+	border-radius: 4px;
+	width: 300px;
+	padding: 15px;
+	margin: 100px auto;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.reset-score:hover{
+	background-color: white;
+	color: #383838;
+}
+
+.green-glow{
+	border: 3px solid green;
+	box-shadow: 0 0 10px green;
+	color: green;
+}
+
+.red-glow{
+	border: 3px solid red;
+	box-shadow: 0 0 10px red;
+	color: red;
+}
+
+.gray-glow{
+	border: 3px solid gray;
+	box-shadow: 0 0 10px gray;
+	color: gray;
+}
